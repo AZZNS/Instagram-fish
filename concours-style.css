@@ -1,0 +1,32 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+.congrats {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 30px;
+	color: skyblue;
+	text-decoration: underline;
+}
+
+hr {
+	width: 50%;
+	margin-top: 50px;
+}
+
+.results {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.return {
+	text-align: center;
+	font-size: 15px;
+}
+
+a {
+	text-decoration: none;
+}

